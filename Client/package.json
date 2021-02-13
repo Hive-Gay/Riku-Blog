@@ -9,5 +9,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "proxy": "http://localhost:5000"
+  "proxy": "http://localhost:5000",
+  "dependencies": {
+    "auth0-js": "^9.14.3",
+    "history": "^5.0.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0"
+  }
 }
