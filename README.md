@@ -1,4 +1,4 @@
-# Riku-Blog
+# Hive Blog
 
 ## Dependencies
 
