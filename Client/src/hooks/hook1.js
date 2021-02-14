@@ -24,6 +24,10 @@ const HooksContainer1 = () => {
         setValue(value - 1);
     };
 
+    const handleUseEffectValue = () => {
+        setUseEffectValue("some string")
+    }
+
     const handleDispatchTrue = () => {
         dispatch(ACTIONS.success());
     };
@@ -35,7 +39,7 @@ const HooksContainer1 = () => {
     return (
         <div>
             <div>
-                <button onClick={() => handleuseEffectValue()}> Handle Value  </button>
+                <button onClick={() => handleUseEffectValue()}> Handle Value  </button>
                 <button onClick={() => handleDispatchTrue()}>Dispatch True </button>
                 <button onClick={() => handleDispatchFalse()}>Dispatch False </button>
                 <button onClick={() => context.dispatchContextTrue()}>Dispatch Context True </button>

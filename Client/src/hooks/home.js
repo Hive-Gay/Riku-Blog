@@ -1,4 +1,4 @@
-import React from 'reach';
+import React from 'react';
 
 const Home = props => (
     <div>
