@@ -8,4 +8,4 @@
 - ```npm install pg helmet cors nodemon```
 
 ### In /Client
-- ```npm install auth0-js react react-dom react-router react-router-dom react-scripts history```
+- ```npm install auth0-js react react-dom react-router react-router-dom react-scripts axios history```
