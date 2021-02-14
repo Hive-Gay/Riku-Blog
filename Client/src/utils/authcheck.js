@@ -1,14 +1,15 @@
 import React, { useEffect, useContext } from 'react';
 import history from './history';
 import Context from './context';
-import * as ACTIONS from '../store/actions/actions';
+
+import axios from 'axios';
 
 const AuthCheck = () => {
     const context = useContext(Context);
 
     useEffect(() => {
         if (context.authObj.isAuthenticated()) {
-            context.handleUSerLogin();
+            context.handleUserLogin();
             context.handleUserAddProfile(context.authObj.userProfile);
             history.replace('/');
         } else {
