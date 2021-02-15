@@ -6,6 +6,8 @@ import Context from '../utils/context';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 
+import '../App.css';
+
 const EditPost = (props) => {
     const context = useContext(Context);
 

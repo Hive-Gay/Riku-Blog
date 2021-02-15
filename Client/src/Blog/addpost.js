@@ -5,6 +5,8 @@ import history from '../utils/history';
 import Context from '../utils/context';
 import TextField from '@material-ui/core/TextField';
 
+import '../App.css';
+
 const AddPost = () => {
     const context = useContext(Context);
 
